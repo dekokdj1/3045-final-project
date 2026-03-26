@@ -1,3 +1,4 @@
+using FInalProject.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FInalProject.Controllers;
@@ -6,6 +7,7 @@ namespace FInalProject.Controllers;
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
+    //I've made some change in this controller that needs merged to the main branch
     private static readonly string[] Summaries = new[]
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
